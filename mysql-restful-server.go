@@ -1,10 +1,10 @@
 package main
 
 import (
-	"go-mysql-rest-api/auth"
-	"go-mysql-rest-api/conf"
-	"go-mysql-rest-api/connection"
-	"go-mysql-rest-api/query"
+	"github.com/seichewarning/mysql-restful-server/auth"
+	"github.com/seichewarning/mysql-restful-server/conf"
+	"github.com/seichewarning/mysql-restful-server/connection"
+	"github.com/seichewarning/mysql-restful-server/query"
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"

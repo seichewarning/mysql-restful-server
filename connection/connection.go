@@ -9,12 +9,12 @@ var db *sql.DB
 
 func GetConnection() *sql.DB {
 	if db == nil {
-		InitConnection("root:root@tcp(127.0.0.1:3306)/huginn")
+		InitConnection("root:root@tcp(127.0.0.1:3306)/restapi")
 	}
 	return db
 }
 
-func InitConnection(dataSourceName string){
+func InitConnection(dataSourceName string) {
 	fmt.Println(dataSourceName)
 	db1, err := sql.Open("mysql", dataSourceName)
 	db = db1

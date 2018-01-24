@@ -3,7 +3,7 @@ package query
 import (
 	"database/sql"
 	"fmt"
-	"go-mysql-rest-api/connection"
+	"github.com/seichewarning/mysql-restful-server/connection"
 	"log"
 	"net/http"
 
@@ -50,7 +50,6 @@ func queryDetail(c *gin.Context) {
 		scanArgs[i] = &values[i]
 	}
 	var m1 map[string]string
-	// 再使用make函数创建一个非nil的map. nil不能赋值
 	m1 = make(map[string]string)
 	for rows.Next() {
 		// get RawBytes from data

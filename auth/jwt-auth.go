@@ -3,7 +3,7 @@ package auth
 import (
 	"time"
 
-	"go-mysql-rest-api/query"
+	"github.com/seichewarning/mysql-restful-server/query"
 
 	"github.com/appleboy/gin-jwt"
 	"github.com/gin-gonic/gin"

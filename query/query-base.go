@@ -1,7 +1,7 @@
 package query
 
 import (
-	"go-mysql-rest-api/conf"
+	"github.com/seichewarning/mysql-restful-server/conf"
 	"net/http"
 	"strings"
 

@@ -2,8 +2,8 @@ package query
 
 import (
 	"database/sql"
-	"go-mysql-rest-api/conf"
-	"go-mysql-rest-api/connection"
+	"github.com/seichewarning/mysql-restful-server/conf"
+	"github.com/seichewarning/mysql-restful-server/connection"
 	"log"
 )
 

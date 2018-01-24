@@ -2,7 +2,7 @@ package query
 
 import (
 	"fmt"
-	"go-mysql-rest-api/connection"
+	"github.com/seichewarning/mysql-restful-server/connection"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

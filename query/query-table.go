@@ -9,7 +9,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"go-mysql-rest-api/connection"
+	"github.com/seichewarning/mysql-restful-server/connection"
 )
 
 func QueryList(c *gin.Context) {
